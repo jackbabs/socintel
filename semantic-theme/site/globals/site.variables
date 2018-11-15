@@ -1,0 +1,4 @@
+@primaryColor: @lightBlue;
+
+
+@lightBlue : #98bffc;

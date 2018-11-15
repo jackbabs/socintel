@@ -1,17 +1,11 @@
-import React, { Component } from 'react';
-import './app.css';
+import React from 'react';
+import './home.css';
+import Main from './components/Main';
 
-export default class App extends Component {
-  state = {};
+const App = () => (
+  <div>
+    <Main />
+  </div>
+);
 
-  render() {
-    return (
-      <div>
-        <h1>Hi there!</h1>
-        <button type="button" className="ui primary button">
-          Hi
-        </button>
-      </div>
-    );
-  }
-}
+export default App;
