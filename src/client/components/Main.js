@@ -1,13 +1,13 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './Home/Home';
-import CdMain from './CdMain';
+import Landing from './Course/Landing';
 
 const Main = () => (
   <main>
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route path="/conversationdecoded" component={CdMain} />
+      <Route path="/conversationdecoded" component={Landing} />
     </Switch>
   </main>
 );
